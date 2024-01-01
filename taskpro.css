@@ -1,0 +1,95 @@
+/* taskpro.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #252A34;
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #08D9D6;
+}
+
+.logout-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.logout-container2 {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+}
+
+.logout-container a,
+.logout-container2 a {
+  text-decoration: none;
+  background-color: #08D9D6;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 7%;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  margin: 5px;
+}
+
+#task-form {
+  max-width: 600px;
+  margin: 30px auto;
+  background: #EAEAEA;
+  color: #0f0f0f;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+#task-form h2 {
+  text-align: center;
+  color: #08D9D6;
+}
+
+label {
+  display: block;
+  margin: 15px 0 8px 0;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background: #08D9D6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 15px auto;
+}
+
+#task-table {
+  width: 100%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: #EAEAEA;
+  color: #0f0f0f;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+#task-form .btn {
+  margin-top: 15px;
+}
+
+a{
+  margin-right: 8px;
+}
